@@ -1,6 +1,6 @@
 # Infinite.js API
 
-
+**In Progress** - Feel free to open an Issue if you need Clarrification or have a suggestion 
 
 <a name="-1"></a>
 
