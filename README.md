@@ -10,5 +10,7 @@
 
 ---
 
-## <a name="0"></a>Globals
+## <a name="0"></a>Menu
+[ **Checkbox** ]
+Syntax: CreateCheckbox() Type: Function  
 
