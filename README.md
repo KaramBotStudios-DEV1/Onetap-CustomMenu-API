@@ -20,11 +20,10 @@ Syntax: CreateCheckbox(label, defaultvalue, row)
 CreateCheckbox("Infinite API", false, 0);
 function Checkbox()
 {
-  if(GetMenuValue("Infinite API"))
-  {
-    Cheat.Print("Checkbox Enabled");
-  }
-
+    if(GetMenuValue("Infinite API"))
+    {
+        Cheat.Print("Checkbox Enabled");
+    }
 }
 
 Global.RegisterCallback("Draw", "Checkbox");
