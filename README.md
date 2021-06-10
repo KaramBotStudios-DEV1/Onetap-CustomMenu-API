@@ -29,3 +29,20 @@ function Checkbox()
 Global.RegisterCallback("Draw", "Checkbox");
 ```
 
+[ **Get Value** ]
+Syntax: GetMenuValue(label)
+
+**Returns** the Value of a Menu Element
+
+```java
+CreateCheckbox("Menu Element", false, 0);
+function Checkbox()
+{
+    Cheat.Print("The value of the element is: " + GetMenuValue("Menu Element"));
+  
+}
+
+Global.RegisterCallback("Draw", "Checkbox");
+```
+
+
