@@ -64,6 +64,65 @@ function Checkbox()
 
 Global.RegisterCallback("Draw", "Checkbox");
 ```
+
+[ **Set Menu Size** ]
+Syntax: SetMenuSize(width, height)
+
+**Sets** the size of the Menu
+
+```java
+SetMenuSize(500, 500)
+```
+
+
+[ **Get Menu Size** ]
+Syntax: GetMenuSize()
+
+**Returns** the size of the Menu
+
+```java
+function GetMenu()
+{
+    Cheat.Print("Menu Width is " + GetMenuSize()[0] + ", Menu Height is " + GetMenuSize()[1] + "\n")
+}
+
+Callback(0, GetMenu);
+```
+
+
+[ **Set Menu Location** ]
+Syntax: SetMenuLocation(x, y)
+
+**Sets** the location of the Menu
+
+```java
+SetMenuLocation(800,800)
+```
+
+
+[ **Get Menu Location** ]
+Syntax: GetMenuLocation()
+
+**returns** the location of the Menu
+```java
+function GetMenu()
+{
+    Cheat.Print("Menu X is " + GetMenuLocation()[0] + ", Menu Y is " + GetMenuLocation()[1] + "\n")
+}
+
+Callback(0, GetMenu);
+```
+
+[ **Set Menu Movable** ]
+Syntax: MovableMenu(value)
+
+**Sets** if the Menu is Movable
+
+```java
+MovableMenu(false) //cannot move
+MovableMenu(true) //can move 
+```
+
 ---
 
 ## <a name="1"></a>Configs
