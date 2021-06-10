@@ -86,6 +86,8 @@ Global.RegisterCallback("Draw", "onDraw");
 LoadFromConfig()
 ```
 
+---
+
 ## <a name="2"></a>Callbacks
 
 [ **Optimized Callbacks** ]
