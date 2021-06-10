@@ -8,7 +8,7 @@
 |--------|
 |[Menu](#0)|
 |[Configs](#1)|
-|[Callbacks](#1)|
+|[Callbacks](#2)|
 
 ---
 
