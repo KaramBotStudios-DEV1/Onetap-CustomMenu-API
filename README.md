@@ -7,6 +7,8 @@
 |Contents|
 |--------|
 |[Menu](#0)|
+|[Configs](#1)|
+|[Callbacks](#1)|
 
 ---
 
@@ -59,4 +61,58 @@ function Checkbox()
 
 Global.RegisterCallback("Draw", "Checkbox");
 ```
+---
+
+## <a name="1"></a>Configs
+[ **Load Script from Config** ]
+Syntax: LoadFromConfig() [ ** must be called at the end of a script** ]
+
+**Loads and Updates** all menu elements from the loaded config
+
+```java
+CreateCheckbox("Infinite API", false, 0);
+
+function onDraw()
+{
+
+
+
+}
+
+Global.RegisterCallback("Draw", "onDraw");
+
+
+//at end of script
+LoadFromConfig()
+```
+
+## <a name="2"></a>Callbacks
+
+[ **Optimized Callbacks** ]
+Syntax: Callback(type, function); [ ** Function to be Invoked not as a string** ]
+
+**Callbacks** the selected function
+
+types
+0 - Draw
+1 - CreateMove
+
+```java
+CreateCheckbox("Draw Rectangle", false, 0);
+
+function onDraw()
+{
+    if(!GetMenuValue("Draw Rectangle")) { return; }
+
+    Render.Rect(100, 100, 150, 150, [255, 0, 0, 255]);
+}
+
+Callback(0, onDraw)
+
+
+
+//at end of script
+LoadFromConfig()
+```
+
 
