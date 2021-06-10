@@ -93,9 +93,6 @@ Syntax: Callback(type, function); [ ** Function to be Invoked not as a string** 
 
 **Callbacks** the selected function
 
-types
-0 - Draw
-1 - CreateMove
 
 ```java
 CreateCheckbox("Draw Rectangle", false, 0);
@@ -109,10 +106,14 @@ function onDraw()
 
 Callback(0, onDraw)
 
+```
 
+[ **Callback Types** ]
+```java
 
-//at end of script
-LoadFromConfig()
+0 - Draw
+1 - CreateMove
+
 ```
 
 
