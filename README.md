@@ -9,6 +9,8 @@
 |[Menu](#0)|
 |[Configs](#1)|
 |[Callbacks](#2)|
+|[Events](#3)|
+|[Elements](#4)|
 
 ---
 
@@ -179,5 +181,44 @@ Callback(0, onDraw)
 1 - CreateMove
 
 ```
+---
+
+## <a name="3"></a>Events
+
+[ **Get Event Value** ]
+Syntax: [ElementType].GetEvent(EventType)
+
+**Returns** the Value of the Event
+```java
 
 
+function onDraw()
+{
+    if(menu.GetEvent(Events.MouseDown))
+        Cheat.Print("Mouse Down \n")
+}
+
+Callback(0, onDraw)
+
+```
+
+[ **Event Types** ]
+```java
+
+Events.MouseDown - When Left mouse button is Down
+Events.MouseUp - When Left mouse button is Up
+
+```
+---
+
+
+## <a name="3"></a>Elements
+
+[ **Elements** ]
+```java
+
+checkbox
+menu 
+
+```
+---
