@@ -13,6 +13,9 @@
 ---
 
 ## <a name="0"></a>Menu
+
+**All menu Element must be called after the API**
+
 [ **Checkbox** ]
 Syntax: CreateCheckbox(label, defaultvalue, row)
 
