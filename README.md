@@ -183,7 +183,7 @@ Callback(0, onDraw)
 ```
 ---
 
-## <a name="4"></a>Events
+## <a name="3"></a>Events
 
 [ **Get Event Value** ]
 Syntax: [ElementType].GetEvent(EventType)
@@ -212,7 +212,7 @@ Events.MouseUp - When Left mouse button is Up
 ---
 
 
-## <a name="3"></a>Elements
+## <a name="4"></a>Elements
 
 [ **Elements** ]
 ```java
