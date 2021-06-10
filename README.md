@@ -45,4 +45,18 @@ function Checkbox()
 Global.RegisterCallback("Draw", "Checkbox");
 ```
 
+[ **Set Value** ]
+Syntax: SetMenuValue(label, value)
+
+**Sets** the Value of a Menu Element
+
+```java
+CreateCheckbox("Menu Element", false, 0);
+function Checkbox()
+{
+    SetMenuValue("Menu Element", true);
+}
+
+Global.RegisterCallback("Draw", "Checkbox");
+```
 
