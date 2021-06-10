@@ -125,6 +125,8 @@ MovableMenu(false) //cannot move
 MovableMenu(true) //can move 
 ```
 
+[back to Contents](#-1)
+
 ---
 
 ## <a name="1"></a>Configs
@@ -149,6 +151,8 @@ Global.RegisterCallback("Draw", "onDraw");
 //at end of script
 LoadFromConfig()
 ```
+
+[back to Contents](#-1)
 
 ---
 
@@ -209,6 +213,9 @@ Events.MouseDown - When Left mouse button is Down
 Events.MouseUp - When Left mouse button is Up
 
 ```
+
+[back to Contents](#-1)
+
 ---
 
 
@@ -221,4 +228,7 @@ checkbox
 menu 
 
 ```
+
+[back to Contents](#-1)
+
 ---
