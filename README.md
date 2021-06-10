@@ -183,7 +183,7 @@ Callback(0, onDraw)
 ```
 ---
 
-## <a name="3"></a>Events
+## <a name="4"></a>Events
 
 [ **Get Event Value** ]
 Syntax: [ElementType].GetEvent(EventType)
