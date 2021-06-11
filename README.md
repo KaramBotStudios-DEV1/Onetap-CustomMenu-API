@@ -20,6 +20,15 @@
 
 **All menu Element must be called after the API**
 
+[ **Label** ]
+Syntax: CreateLabel(label, row)
+
+**Creates** a Label with the specified Label and Row 
+
+```java
+CreateLabel("TestLabel", 0)
+```
+
 [ **Checkbox** ]
 Syntax: CreateCheckbox(label, defaultvalue, row)
 
